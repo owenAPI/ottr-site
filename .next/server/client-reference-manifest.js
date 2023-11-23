@@ -104,54 +104,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
+    "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js": {
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
+      "Analytics": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "Analytics",
         "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -208,70 +182,54 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+    "(app-client)/./node_modules/next/dist/client/image.js": {
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/[...not_found]/page:app/[...not_found]/page"
+          "app/not-found:app/not-found"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/[...not_found]/page:app/[...not_found]/page"
+          "app/not-found:app/not-found"
         ],
         "async": false
       },
-      "NoSSR": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "NoSSR",
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
         "chunks": [
-          "app/[...not_found]/page:app/[...not_found]/page"
-        ],
-        "async": false
-      },
-      "__esModule": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "__esModule",
-        "chunks": [
-          "app/[...not_found]/page:app/[...not_found]/page"
-        ],
-        "async": false
-      },
-      "suspense": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "suspense",
-        "chunks": [
-          "app/[...not_found]/page:app/[...not_found]/page"
+          "app/not-found:app/not-found"
         ],
         "async": false
       }
     },
-    "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "": {
-        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/not-found:app/not-found"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/not-found:app/not-found"
         ],
         "async": false
       },
-      "Analytics": {
-        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
-        "name": "Analytics",
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/not-found:app/not-found"
         ],
         "async": false
       }
@@ -550,338 +508,6 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
     ]
   },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/shared/lib/app-router-context.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "*",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "AppRouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "AppRouterContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "CacheStates": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "CacheStates",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "GlobalLayoutRouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "GlobalLayoutRouterContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "LayoutRouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "LayoutRouterContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "TemplateContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "TemplateContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "*",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "AppRouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "AppRouterContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "CacheStates": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "CacheStates",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "GlobalLayoutRouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "GlobalLayoutRouterContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "LayoutRouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "LayoutRouterContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "TemplateContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "TemplateContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/shared/lib/hooks-client-context.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "*",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "LayoutSegmentsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "LayoutSegmentsContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "ParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "ParamsContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "PathnameContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "PathnameContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "*",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "LayoutSegmentsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "LayoutSegmentsContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "ParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "ParamsContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "PathnameContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "PathnameContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/shared/lib/server-inserted-html.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "*",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "useServerInsertedHTML": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "useServerInsertedHTML",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "*",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    },
-    "useServerInsertedHTML": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "useServerInsertedHTML",
-      "chunks": [
-        "webpack:webpack"
-      ],
-      "async": false
-    }
-  },
   "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/components/app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
@@ -1090,106 +716,28 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/image.js": {
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@vercel/analytics/dist/react/index.js": {
     "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
+    "Analytics": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "Analytics",
       "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -1264,133 +812,108 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/image.js": {
     "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
+        "app/not-found:app/not-found"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
+        "app/not-found:app/not-found"
       ],
       "async": false
     },
-    "NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    },
-    "suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    },
-    "NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    },
-    "suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/[...not_found]/page:app/[...not_found]/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@vercel/analytics/dist/react/index.js": {
-    "": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "Analytics": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "Analytics",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
     "default": {
-      "id": "null",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
-      ]
+        "app/not-found:app/not-found"
+      ],
+      "async": false
     }
   },
-  "/Users/owentillger/Documents/GitHub/ottr-site/app/globals.css": {
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    },
     "default": {
-      "id": "null",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "static/css/_app-client_app_globals_css.css",
-        "static/css/_app-client_app_blog-section_BlogGrid_tsx.css"
-      ]
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    }
+  },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    }
+  },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/not-found:app/not-found"
+      ],
+      "async": false
     }
   },
   "/Users/owentillger/Documents/GitHub/ottr-site/public/projects/215.png": {
@@ -1637,6 +1160,16 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/owentillger/Documents/GitHub/ottr-site/app/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_blog-section_BlogGrid_tsx.css",
+        "static/css/_app-client_app_globals_css.css"
+      ]
+    }
+  },
   "/Users/owentillger/Documents/GitHub/ottr-site/public/otter icon.png": {
     "": {
       "id": "(app-client)/./public/otter icon.png",
@@ -1661,6 +1194,15 @@ self.__RSC_MANIFEST={
         "_app-client_app_contact-section_Contact_tsx:_app-client_app_contact-section_Contact_tsx"
       ],
       "async": false
+    }
+  },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
+      ]
     }
   }
 }

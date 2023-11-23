@@ -748,9 +748,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-\[40\%\] {
-  width: 40%;
-}
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
@@ -1042,6 +1039,9 @@ video {
 }
 .text-\[96px\] {
   font-size: 96px;
+}
+.text-\[8px\] {
+  font-size: 8px;
 }
 .font-bold {
   font-weight: 700;
@@ -1397,6 +1397,10 @@ body {
 
   .sm\:text-\[45px\] {
     font-size: 45px;
+  }
+
+  .sm\:text-\[10px\] {
+    font-size: 10px;
   }
 
   .sm\:leading-\[0\.85em\] {
