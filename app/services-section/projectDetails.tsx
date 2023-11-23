@@ -26,7 +26,7 @@ export const devProjects = [
     name: "dYx",
     description:
       "Development Group",
-    technologies: ["py", "QL", "js", "tf", "More"],
+    technologies: ["py", "QL", "js", "More"],
     github: "https://github.com/owenAPI/dYxCODE",
     demo: "",
     image: require(".//../../public/projects/dyx.png"),
