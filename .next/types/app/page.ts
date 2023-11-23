@@ -1,4 +1,4 @@
-// File: /Users/owentillger/Desktop/ottrCo-site/app/page.tsx
+// File: /Users/owentillger/Documents/GitHub/ottr-site/app/page.tsx
 import * as entry from '../../../app/page'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 
