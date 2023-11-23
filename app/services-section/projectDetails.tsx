@@ -4,7 +4,7 @@ export type ProjectProps = {
   description: string;
   technologies: string[];
   github: string;
-  demo?: string;
+  demo?: string | undefined;
   image: string;
   available: boolean;
 };
@@ -41,7 +41,7 @@ export const devProjects = [
     github: "",
     demo: "",
     image: require(".//../../public/projects/215.png"),
-    available: true,
+    available: false,
   },
   {
     id: 3,
