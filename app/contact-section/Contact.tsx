@@ -44,7 +44,7 @@ const Contact = () => {
               }
             />
             <Link
-              href="mailto:info@ottr.site?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20could%20work%20together...%20Reach%20out%20as%20soon%20as%20you%20can."
+              href="mailto:info@ottr.site?subject=Let's%20Work%20Together!&amp;body=Hello!%2C%20I%20think%20we%20could%20work%20together...%20Reach%20out%20ASAP!"
               target="_blank"
               aria-label="Send us an email"
               className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
