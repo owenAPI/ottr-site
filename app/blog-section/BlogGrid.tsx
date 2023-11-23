@@ -12,7 +12,7 @@ const Blog = () => {
       >
         {" "}
         <AnimatedWords2
-          title={"Roadmaps"}
+          title={"Leaks"}
           style={`flex max-w-[500px] flex-col items-start text-left text-[126px] ${monaSans.className} font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[215.04px]`}
         />
         <AnimatedBody
