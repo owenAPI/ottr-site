@@ -15,7 +15,7 @@ export const devProjects = [
     name: "Sandbox Research",
     description:
       "Quantitative Trading Firm",
-    technologies: ["HFT", "py", "TF", "More"],
+    technologies: ["HFT", "py", "TF", "etc"],
     github: "https://github.com/owenAPI/SandboxResearch",
     demo: "https://drive.google.com/file/d/165N3StfyU2XSX5kWzPZayHizmRYeonTm/view?usp=drive_link",
     image: require(".//../../public/projects/sandbox.png"),
@@ -26,7 +26,7 @@ export const devProjects = [
     name: "dYx",
     description:
       "Development Group",
-    technologies: ["py", "QL", "js", "More"],
+    technologies: ["py", "QL", "js", "etc"],
     github: "https://github.com/owenAPI/dYxCODE",
     demo: "",
     image: require(".//../../public/projects/dyx.png"),
@@ -48,7 +48,7 @@ export const devProjects = [
     name: "Clickroot",
     description:
       "Your front-page of the internet.",
-    technologies: ["js", "QL", "TS", "More"],
+    technologies: ["js", "QL", "TS", "etc"],
     github: "",
     image: require(".//../../public/projects/clickroot-new.png"),
     available: false,
