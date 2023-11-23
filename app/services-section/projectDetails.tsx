@@ -4,7 +4,7 @@ export type ProjectProps = {
   description: string;
   technologies: string[];
   github: string;
-  demo: string;
+  demo?: string;
   image: string;
   available: boolean;
 };
@@ -28,7 +28,7 @@ export const devProjects = [
       "Development Group",
     technologies: ["Python", "SQL", "js", "TensorFlow"],
     github: "https://github.com/owenAPI/dYxCODE",
-    demo: "https://sky-watch.vercel.app/",
+    demo: "",
     image: require(".//../../public/projects/dyx.png"),
     available: true,
   },

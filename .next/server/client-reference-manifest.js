@@ -104,6 +104,58 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/profile3.png": {
       "": {
         "id": "(sc_client)/./public/profile3.png",
@@ -152,58 +204,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/not-found:app/not-found"
         ],
         "async": false
       }
@@ -504,8 +504,8 @@ self.__RSC_MANIFEST={
       "static/css/app/page.css"
     ],
     "/Users/owentillger/Documents/GitHub/ottr-site/app/layout": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css",
-      "static/css/_app-client_app_globals_css.css"
+      "static/css/_app-client_app_globals_css.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
     ]
   },
   "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/components/app-router.js": {
@@ -716,6 +716,110 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
   "/Users/owentillger/Documents/GitHub/ottr-site/app/animations/PreLoader/preloader.css": {
     "default": {
       "id": "null",
@@ -786,110 +890,6 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/next/dist/esm/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/not-found:app/not-found"
-      ],
-      "async": false
-    }
-  },
   "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@vercel/analytics/dist/react/index.js": {
     "": {
       "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
@@ -916,6 +916,15 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
+      ]
+    }
+  },
   "/Users/owentillger/Documents/GitHub/ottr-site/app/globals.css": {
     "default": {
       "id": "null",
@@ -923,15 +932,6 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/_app-client_app_globals_css.css",
         "static/css/_app-client_app_blog-section_BlogGrid_tsx.css"
-      ]
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
       ]
     }
   },
