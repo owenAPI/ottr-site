@@ -12,7 +12,7 @@ export const blogDetails = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1700608381299/c3e99650-7801-49ce-95af-0ebb11e9c2de.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     date: "DEC 2023",
-    url: "blog.ottr.site",
+    url: "https://blog.ottr.site",
     available: true,
   },
   // {
