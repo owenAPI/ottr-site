@@ -13,8 +13,7 @@ export const devProjects = [
   {
     id: 0,
     name: "Sandbox Research",
-    description:
-      "Quantitative Trading Firm",
+    description: "Quantitative Trading Firm",
     technologies: ["HFT", "py", "TF", "etc"],
     github: "https://github.com/owenAPI/SandboxResearch",
     demo: "https://drive.google.com/file/d/165N3StfyU2XSX5kWzPZayHizmRYeonTm/view?usp=drive_link",
@@ -23,34 +22,32 @@ export const devProjects = [
   },
   {
     id: 1,
-    name: "dYx",
-    description:
-      "Development Group",
+    name: "Happy Cat",
+    description: "Software Development",
     technologies: ["py", "QL", "js", "etc"],
-    github: "https://github.com/owenAPI/dYxCODE",
+    github: "https://github.com/owenAPI/HappyCat",
     demo: "",
-    image: require(".//../../public/projects/dyx.png"),
+    image: require(".//../../public/projects/happycat.png"),
     available: true,
   },
+  // {
+  //   id: 2,
+  //   name: "215 Partners",
+  //   description:
+  //     "Venture Capital",
+  //   technologies: [],
+  //   github: "",
+  //   demo: "",
+  //   image: require(".//../../public/projects/215.png"),
+  //   available: false,
+  // },
   {
     id: 2,
-    name: "215 Partners",
-    description:
-      "Venture Capital",
-    technologies: [],
-    github: "",
-    demo: "",
-    image: require(".//../../public/projects/215.png"),
-    available: false,
-  },
-  {
-    id: 3,
     name: "Clickroot",
-    description:
-      "Your front-page of the internet.",
+    description: "Your front-page of the internet.",
     technologies: ["js", "QL", "TS", "etc"],
     github: "",
-    image: require(".//../../public/projects/clickroot-new.png"),
+    image: require(".//../../public/projects/clickroot.png"),
     available: false,
   },
   //{

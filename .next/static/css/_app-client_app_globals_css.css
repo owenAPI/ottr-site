@@ -1037,11 +1037,11 @@ video {
 .text-\[40px\] {
   font-size: 40px;
 }
-.text-\[96px\] {
-  font-size: 96px;
-}
 .text-\[8px\] {
   font-size: 8px;
+}
+.text-\[96px\] {
+  font-size: 96px;
 }
 .font-bold {
   font-weight: 700;
@@ -1397,10 +1397,6 @@ body {
 
   .sm\:text-\[45px\] {
     font-size: 45px;
-  }
-
-  .sm\:text-\[10px\] {
-    font-size: 10px;
   }
 
   .sm\:leading-\[0\.85em\] {
