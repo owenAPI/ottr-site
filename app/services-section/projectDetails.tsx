@@ -12,12 +12,12 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
-    name: "Sandbox Research",
+    name: "Playground Finance",
     description: "Quantitative Trading Firm",
     technologies: ["HFT", "py", "TF", "etc"],
-    github: "https://github.com/owenAPI/SandboxResearch",
+    github: "https://github.com/owenAPI/PlaygroundFinance",
     demo: "https://drive.google.com/file/d/165N3StfyU2XSX5kWzPZayHizmRYeonTm/view?usp=drive_link",
-    image: require(".//../../public/projects/sandbox.png"),
+    image: require(".//../../public/projects/playground.png"),
     available: true,
   },
   {

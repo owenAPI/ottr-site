@@ -104,6 +104,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "Analytics": {
+        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
+        "name": "Analytics",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/profile3.png": {
       "": {
         "id": "(sc_client)/./public/profile3.png",
@@ -208,32 +234,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "Analytics": {
-        "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
-        "name": "Analytics",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/projects/clickroot.png": {
       "": {
         "id": "(sc_client)/./public/projects/clickroot.png",
@@ -286,9 +286,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./public/projects/sandbox.png": {
+    "(app-client)/./public/projects/playground.png": {
       "": {
-        "id": "(sc_client)/./public/projects/sandbox.png",
+        "id": "(sc_client)/./public/projects/playground.png",
         "name": "",
         "chunks": [
           "_app-client_app_services-section_Services_tsx:_app-client_app_services-section_Services_tsx"
@@ -296,7 +296,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./public/projects/sandbox.png",
+        "id": "(sc_client)/./public/projects/playground.png",
         "name": "*",
         "chunks": [
           "_app-client_app_services-section_Services_tsx:_app-client_app_services-section_Services_tsx"
@@ -304,7 +304,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/projects/sandbox.png",
+        "id": "(sc_client)/./public/projects/playground.png",
         "name": "default",
         "chunks": [
           "_app-client_app_services-section_Services_tsx:_app-client_app_services-section_Services_tsx"
@@ -690,6 +690,32 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@vercel/analytics/dist/react/index.js": {
+    "": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "Analytics": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "Analytics",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
   "/Users/owentillger/Documents/GitHub/ottr-site/app/animations/PreLoader/preloader.css": {
     "default": {
       "id": "null",
@@ -864,51 +890,6 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@vercel/analytics/dist/react/index.js": {
-    "": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "Analytics": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "Analytics",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
-      ]
-    }
-  },
-  "/Users/owentillger/Documents/GitHub/ottr-site/app/globals.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_globals_css.css",
-        "static/css/_app-client_app_blog-section_BlogGrid_tsx.css"
-      ]
-    }
-  },
   "/Users/owentillger/Documents/GitHub/ottr-site/public/projects/clickroot.png": {
     "": {
       "id": "(app-client)/./public/projects/clickroot.png",
@@ -961,9 +942,9 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/owentillger/Documents/GitHub/ottr-site/public/projects/sandbox.png": {
+  "/Users/owentillger/Documents/GitHub/ottr-site/public/projects/playground.png": {
     "": {
-      "id": "(app-client)/./public/projects/sandbox.png",
+      "id": "(app-client)/./public/projects/playground.png",
       "name": "",
       "chunks": [
         "_app-client_app_services-section_Services_tsx:_app-client_app_services-section_Services_tsx"
@@ -971,7 +952,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/projects/sandbox.png",
+      "id": "(app-client)/./public/projects/playground.png",
       "name": "*",
       "chunks": [
         "_app-client_app_services-section_Services_tsx:_app-client_app_services-section_Services_tsx"
@@ -979,7 +960,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/projects/sandbox.png",
+      "id": "(app-client)/./public/projects/playground.png",
       "name": "default",
       "chunks": [
         "_app-client_app_services-section_Services_tsx:_app-client_app_services-section_Services_tsx"
@@ -1127,6 +1108,16 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/owentillger/Documents/GitHub/ottr-site/app/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_blog-section_BlogGrid_tsx.css",
+        "static/css/_app-client_app_globals_css.css"
+      ]
+    }
+  },
   "/Users/owentillger/Documents/GitHub/ottr-site/public/otter icon.png": {
     "": {
       "id": "(app-client)/./public/otter icon.png",
@@ -1151,6 +1142,15 @@ self.__RSC_MANIFEST={
         "_app-client_app_contact-section_Contact_tsx:_app-client_app_contact-section_Contact_tsx"
       ],
       "async": false
+    }
+  },
+  "/Users/owentillger/Documents/GitHub/ottr-site/node_modules/@next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
+      ]
     }
   }
 }
