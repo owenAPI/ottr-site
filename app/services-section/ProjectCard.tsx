@@ -13,8 +13,8 @@ const ProjectCard = ({
   name,
   description,
   technologies,
-  github,
-  demo,
+  // github,
+  // demo,
   image,
   available,
 }: ProjectProps) => {
