@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
-import { devProjects, designProjects, ProjectProps } from "./projectDetails";
+import { devProjects, ProjectProps } from "./projectDetails";
+// import { designProps } from "./projectDetails";
 import { useState } from "react";
 
 const ProjectGrid = () => {
