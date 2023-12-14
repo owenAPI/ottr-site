@@ -10,7 +10,7 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
-    name: "Playground Finance",
+    name: "Sandbox Research",
     description: "Quantitative Trading Firm",
     technologies: ["HFT", "py", "TF", "etc"],
     // github: "https://github.com/owenAPI/PlaygroundFinance",
@@ -25,7 +25,7 @@ export const devProjects = [
     technologies: ["py", "QL", "js", "etc"],
     // github: "https://github.com/owenAPI/Clickroot",
     // demo: "",
-    image: require(".//../../public/projects/clickroot-new.png"),
+    image: require(".//../../public/projects/clickroot.png"),
     available: true,
   },
   {
